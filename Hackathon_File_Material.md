@@ -12,6 +12,26 @@
 
 ---
 
+## 📂 File Structure
+
+```text
+Hackathon_File_Material/
+├── 📄 Hackathon_Rules.md
+├── 📁 Hackathon#1
+│   ├── 📁 Problem-Statement
+│   │   ├── 🖼️ คำศัพท์พื้นฐานและข้อควรรู้เบื้องต้น.png
+│   │   ├── 📄 โยนไฟล์ให้A.I.อ่านอย่างเดียวระวังจะโดนแอบใส่คำสั่งลงไปนะ.pdf
+│   │   ├── 🖼️ Log_Format.png
+│   │   └── 📄 The_Silent_Threat_Hackathon_Mission_(ver_Student).pdf
+│   └── 📊 cart_web.log
+└── 📁 Hackathon#2
+    ├── 📁 Problem-Statement
+    │   └── 📄 Enose_hackathon_brief.pdf
+    └── 📊 Export.csv
+```
+
+---
+
 ## ⚠️ Important
 
 กรุณาเข้าสู่ระบบด้วย **อีเมลสถาบัน Google(cdti.ac.th) or Microsoft(@ms.cdti.ac.th)** เท่านั้น เพื่อเข้าถึงไฟล์และเอกสารประกอบการแข่งขัน
