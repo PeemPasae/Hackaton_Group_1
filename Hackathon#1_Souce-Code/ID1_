@@ -1,0 +1,8 @@
+grep -E '\b5[0-9]{2}\b' "$LOG_FILE" \
+    | grep -E '\/[^ ]*[A-Z_][^ ]*' \
+    | cut -d'|' -f2 \
+    | sed 's/^ *//;s/ *$//' \
+    | sort \
+    | uniq -c \
+    | sort -nr \
+    | awk '{printf "%-10s %-15s\n", $1, $2}'
