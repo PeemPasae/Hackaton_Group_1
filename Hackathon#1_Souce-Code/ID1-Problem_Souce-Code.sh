@@ -2,6 +2,7 @@
 
 cd /home/bootcamp/clmystery/mystery/streets/locked/
 
+#หา IP คนร้ายที่ส่งข้อมูลแปลกๆมา
 grep -E '\b5[0-9]{2}\b' "$LOG_FILE" \
     | grep -E '\/[^ ]*[A-Z_][^ ]*' \
     | cut -d'|' -f2 \
